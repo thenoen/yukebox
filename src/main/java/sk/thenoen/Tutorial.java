@@ -34,6 +34,7 @@ public class Tutorial {
 	}
 
 	private void start(String mrl) {
+		mediaPlayerComponent.getMediaPlayer().setPlaySubItems(true);
 		mediaPlayerComponent.getMediaPlayer().playMedia(mrl);
 	}
 
